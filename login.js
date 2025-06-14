@@ -9,7 +9,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   // Clear previous messages
   messageDiv.classList.add("d-none");
 
-  fetch("https://script.google.com/macros/s/AKfycbyu9Qhe352oHWEpMSTrj3LQVSpgdioRs4OhmNa6EDrMbf7JEwBzXSeNC4bhIYH9oadx/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyaSa4ky4YfZ5ce7vETd1ha9MKKy4EUGYUhe6KHKUw6SSSOR_osqX2XfF6XSSS-v-HG/exec", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ username, password, redirectUrl })
